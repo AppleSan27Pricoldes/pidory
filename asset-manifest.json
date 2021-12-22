@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pidory/static/css/main.435a3f62.css",
+    "main.js": "/pidory/static/js/main.359ba27c.js",
+    "static/js/787.cfd8f164.chunk.js": "/pidory/static/js/787.cfd8f164.chunk.js",
+    "index.html": "/pidory/index.html",
+    "main.435a3f62.css.map": "/pidory/static/css/main.435a3f62.css.map",
+    "main.359ba27c.js.map": "/pidory/static/js/main.359ba27c.js.map",
+    "787.cfd8f164.chunk.js.map": "/pidory/static/js/787.cfd8f164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.435a3f62.css",
+    "static/js/main.359ba27c.js"
+  ]
+}
