@@ -7,14 +7,17 @@ function App() {
     no:false
   })
   const [count, setCount] = useState(0)
+  const [noy, setNo] = useState('Нет')
+
+  if (count > 2){
+    setNo('Чувак, рили?')
+   }
   
   function y(){
     setChois({
       yes:true,
       no:false
     })
-
-
   }
 
   function no(){
@@ -52,7 +55,7 @@ function App() {
         </div>
         <div>
           <button onClick ={y}>Да</button>{' '}
-          <button onClick={no}>Нет</button>
+          <button onClick={no}>{noy}</button>
         </div>
       </>
      :
