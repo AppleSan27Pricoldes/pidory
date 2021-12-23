@@ -38,7 +38,7 @@ function App() {
 
   return (
  <div className="App">
-   {(count>10)?
+   {(count>6)?
    <>
     <div variant={"info"}>
     Да хватит, ты пидор </div>
