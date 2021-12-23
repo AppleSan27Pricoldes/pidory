@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
   const [chois, setChois]= useState({
@@ -9,9 +9,12 @@ function App() {
   const [count, setCount] = useState(0)
   const [noy, setNo] = useState('Нет')
 
-  if (count > 2){
-    setNo('Чувак, рили?')
-   }
+  useEffect(()=>{
+    if (count > 2){
+      setNo('Чувак, рили?')
+     }
+
+  },[count])
   
   function y(){
     setChois({
